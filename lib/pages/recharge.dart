@@ -170,7 +170,7 @@ class Login_ extends State<recharge> {
                               is_show = true;
                               yj = int.parse(e);
                               int w = DateTime.now().weekday;
-                              rate = 0.05;
+                              rate = 0.06;
                               give_money = yj*rate;
                             });
 
